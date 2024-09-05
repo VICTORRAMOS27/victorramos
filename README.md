@@ -3,7 +3,7 @@
 #incluir <Servo.h>
 #incluir "notas_musicais.h"
 
-@definir pinoServo 7
+#definir pinoServo 7
 #definir Trigonometria 2
 #definir Eco 3
 #definir B1A 8 
@@ -20,6 +20,7 @@ flutuadordistanciaObstáculo =35;
 Ultrassôinicoultrassônico(trig, Eco);
 
 Servo servo;
+
 vazio configurar() {
 Serial.começar(9600);
 
@@ -27,5 +28,6 @@ servo.anexar(pinoServo);
 //pinos da ponte H
 Modo pin(B1A, SAÍDA);
 Modo pin(B1B, SAÍDA);
-Modo oin(A1A, SAÍDa0
+Modo pin(A1A, SAÍDA);
+Modo pin(A1B, SAÍDA);
 

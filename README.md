@@ -24,4 +24,8 @@ vazio configurar() {
 Serial.começar(9600);
 
 servo.anexar(pinoServo);
+//pinos da ponte H
+Modo pin(B1A, SAÍDA);
+Modo pin(B1B, SAÍDA);
+Modo oin(A1A, SAÍDa0
 

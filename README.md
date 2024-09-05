@@ -17,4 +17,11 @@ inteiropino de campainha =6;
 
 flutuadordistanciaObstáculo =35;
 
-Ultrassôinicoultrassônico(trig, Eco
+Ultrassôinicoultrassônico(trig, Eco);
+
+Servo servo;
+vazio configurar() {
+Serial.começar(9600);
+
+servo.anexar(pinoServo);
+

@@ -31,3 +31,18 @@ Modo pin(B1B, SAÍDA);
 Modo pin(A1A, SAÍDA);
 Modo pin(A1B, SAÍDA);
 
+Servo.screver(90);
+//Radar();
+}
+
+vazio laço() {
+
+Serial.imprimir(ultrassônico.Alcance(
+
+se (ultrassônico.Alcance(CM) <=distar
+Andar(5);
+inteirostatus =Radar();
+atraso(500);
+se(estado==1) {
+andar(2);
+atraso(600)

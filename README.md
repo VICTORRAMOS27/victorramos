@@ -45,4 +45,10 @@ inteirostatus =Radar();
 atraso(500);
 se(estado==1) {
 andar(2);
-atraso(600)
+atraso(600);
+Andar(4);
+atraso(400);
+Andar(5);
+}
+se(estado==2){
+Andar(2);

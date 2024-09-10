@@ -1,4 +1,3 @@
-# victorramos
 #incluir <Ultrassônico.h>
 #incluir <Servo.h>
 #incluir "notas_musicais.h"
@@ -32,7 +31,9 @@ Modo pin(A1A, SAÍDA);
 Modo pin(A1B, SAÍDA);
 
 Servo.screver(90);
+
 //Radar();
+￼
 }
 
 vazio laço() {
